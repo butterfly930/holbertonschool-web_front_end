@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.row {
+    display: flex; 
+}
+
+
+[class*='col-'] {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+
+.col-1 {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+
+.section-services {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.section-works {
+    background-color: #e9e9e9;
+    padding: 20px;
+}
+
+.section-about-us {
+    background-color: #d9d9d9;
+    padding: 20px;
+}
+
+.section-latest-news {
+    background-color: #c9c9c9;
+    padding: 20px;
+}
+
+.section-testimonial {
+    background-color: #b9b9b9;
+    padding: 20px;
+}
+
+.section-contact {
+    background-color: #a9a9a9;
+    padding: 20px;
+}
