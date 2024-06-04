@@ -666,25 +666,27 @@ form {
     padding: 1rem 0;
     margin: 0;
 }
-/* Fieldset styles
-    ============================= */
-fieldset {
+.tag-list {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .tag-list li {
+    display: inline;
+  }
+  
+  .tag-list li::after {
+    content: ", ";
+  }
+  
+  .tag-list li:last-child::after {
+    content: "";
+  }
+
+  fieldset {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     border: none;
-    padding: 0 0 2rem 0;
-}
-
-/* Utility classes
-    ============================= */
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-}
+    padding: 0 0 2rem;
+  }
