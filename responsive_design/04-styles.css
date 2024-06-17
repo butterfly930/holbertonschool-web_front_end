@@ -430,7 +430,6 @@ ul.row {
         --nav-item-margin: 0;
     }
 	.navbar-menu {
-		display: none;
         flex: 1;
 	}
     .header .nav {
